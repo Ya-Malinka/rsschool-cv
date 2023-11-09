@@ -9,18 +9,19 @@
 </head>
 <body>
     <header class="header">
-        <div class="container"></div>
-        <nav class="nav">
-            <ul class="nav-list">
-              <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-              <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
-              <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-              <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
-              <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-              <li class="nav-item"><a href="#lanuages" class="nav-link">Languages</a></li>
-            </ul>
-          </nav>
-  </header>
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                  <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                  <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                  <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                  <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                  <li class="nav-item"><a href="#lanuages" class="nav-link">Languages</a></li>
+                </ul>
+              </nav>
+        </div>
+    </header>
     <main class="main">
         <div class="container"></div>
         <section class="section" id="profile">
@@ -28,13 +29,14 @@
             <h2>Junior front-end developer</h2>
           <img class="image" src="./assets/image.jpg" alt="my photo">
         </section>
+
         <section class="section" id="contacts">
             <h2 class="section-title">Contacts</h2>
-            <p>Rostov-on-Don, Russia</p>
-            <p>Email:g.s.ryazanova@gmail.com</p>
-            <p>Github:</p>
-            <p>Telegram:</p>
-            <p>Discord:</p>
+            <p>Rostov-on-Don, Russia </p>
+            <p>Email: g.s.ryazanova@gmail.com</p>
+            <p>Github: </p>
+            <p>Telegram: </p>
+            <p>Discord: </p>
         </section>
         <section class="section" id="summary">
             <h2 class="section-title">Summary</h2>
@@ -44,6 +46,15 @@
         </section>
         <section class="section" id="code">
             <h2 class="section-title">Code</h2>
+            <p>
+                const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+
+                    if (mpg*fuelLeft >= distanceToPump) {
+                      return true;
+                    }
+                    else { return false}
+                  };
+            </p>
         </section>
         <section class="section" id="education">
             <h2 class="section-title">Education</h2>
@@ -54,9 +65,12 @@
             <p>English B2</p>
             <p>Spanish A2</p>
         </section>
-  </main>
+
+
+
+    </main>
     <footer class="footer">
         <div class="container"></div>
-    </footer>    
+    </footer>
 </body>
 </html>
